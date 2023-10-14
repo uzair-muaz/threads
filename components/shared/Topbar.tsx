@@ -17,9 +17,14 @@ function Topbar() {
             <div className="flex cursor-pointer gap-3">
               <Image src="/logout.svg" alt="user" width={24} height={24} />
               <div className="bg-[#121417] border rounded-full p-1">
-              <Image src="/user.svg" alt="user" width={24} height={24} className="rounded-full"/>
+                <Image
+                  src="/user.svg"
+                  alt="user"
+                  width={24}
+                  height={24}
+                  className="rounded-full"
+                />
               </div>
-
             </div>
           ) : (
             <div className="flex cursor-pointer">
